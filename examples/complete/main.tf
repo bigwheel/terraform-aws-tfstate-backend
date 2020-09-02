@@ -1,5 +1,6 @@
 provider "aws" {
-  region = var.region
+  region  = var.region
+  version = "=3.4.0"
 }
 
 module "tfstate_backend" {
